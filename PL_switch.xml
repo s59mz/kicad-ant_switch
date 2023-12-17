@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/matjaz/Kicad/kicad-ant_switch/PL_switch.kicad_sch</source>
+    <date>ned 17 dec 2023 17:52:55</date>
+    <tool>Eeschema 7.0.9-7.0.9~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>HF Antenna Switch</title>
+        <company>S59MZ</company>
+        <rev>1.0</rev>
+        <date>2023-04-06</date>
+        <source>PL_switch.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PL_switch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71bed15c-7b31-4f98-9300-9eeaa1e66eee</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N4007</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PL_switch.kicad_sch"/>
+      <property name="ki_description" value="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b68bcedf-1ef2-49cb-a268-4088c873a280</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4007</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PL_switch.kicad_sch"/>
+      <property name="ki_description" value="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff976af9-1439-4a03-abf4-6ee7ff396de4</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N4007</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PL_switch.kicad_sch"/>
+      <property name="ki_description" value="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6732543b-2139-4258-a55b-ef76dde12692</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N4007</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PL_switch.kicad_sch"/>
+      <property name="ki_description" value="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5c00405-7537-4271-a580-4cbafc32d699</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>TRCV</value>
+      <footprint>Library:SO-239</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PL_switch.kicad_sch"/>
+      <property name="ki_description" value="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="ki_keywords" value="BNC SMA SMB SMC LEMO coaxial connector CINCH RCA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e58b8cbe-b5b9-46d1-897a-c8dca3adc80b</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>ANT-3</value>
+      <footprint>Library:SO-239</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PL_switch.kicad_sch"/>
+      <property name="ki_description" value="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="ki_keywords" value="BNC SMA SMB SMC LEMO coaxial connector CINCH RCA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12cbbb06-d495-4f19-aeb5-90d25868786d</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>ANT-2</value>
+      <footprint>Library:SO-239</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PL_switch.kicad_sch"/>
+      <property name="ki_description" value="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="ki_keywords" value="BNC SMA SMB SMC LEMO coaxial connector CINCH RCA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98092454-5fc4-4325-9403-a72fed328ddc</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>ANT-1</value>
+      <footprint>Library:SO-239</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PL_switch.kicad_sch"/>
+      <property name="ki_description" value="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="ki_keywords" value="BNC SMA SMB SMC LEMO coaxial connector CINCH RCA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>438eb15a-a3ad-4773-b2c8-e211740beeb7</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Input</value>
+      <footprint>Library:Conn_2x1</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x01" description="Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PL_switch.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4899641d-2c03-4b7b-96c4-96abef306b0a</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Output</value>
+      <footprint>Library:Conn_2x1</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x01" description="Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PL_switch.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e9b3f66-ae09-41cb-9b52-87e893fb4c95</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>hdr-idc 2.54mm</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PL_switch.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aae4f844-b5be-4280-a00b-b1214f1375b4</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>PTT</value>
+      <footprint>Library:Conn_1x1</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PL_switch.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5947e2f-f795-4a58-8e88-4223b6e39e59</tstamps>
+    </comp>
+    <comp ref="RL1">
+      <value>G2RL-2-DC12</value>
+      <footprint>Relay_THT:Relay_DPDT_Omron_G2RL</footprint>
+      <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf</datasheet>
+      <libsource lib="Relay" part="G2RL-2-DC12" description="General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, 12V coil"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PL_switch.kicad_sch"/>
+      <property name="ki_description" value="General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, 12V coil"/>
+      <property name="ki_keywords" value="Omron Relay Dual Pole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e91af37-dfaa-497e-8b26-621d77487f4a</tstamps>
+    </comp>
+    <comp ref="RL2">
+      <value>G2RL-2-DC12</value>
+      <footprint>Relay_THT:Relay_DPDT_Omron_G2RL</footprint>
+      <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf</datasheet>
+      <libsource lib="Relay" part="G2RL-2-DC12" description="General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, 12V coil"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PL_switch.kicad_sch"/>
+      <property name="ki_description" value="General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, 12V coil"/>
+      <property name="ki_keywords" value="Omron Relay Dual Pole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>adb178ae-b167-4606-bd0a-7dc31414238f</tstamps>
+    </comp>
+    <comp ref="RL3">
+      <value>G2RL-2-DC12</value>
+      <footprint>Relay_THT:Relay_DPDT_Omron_G2RL</footprint>
+      <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf</datasheet>
+      <libsource lib="Relay" part="G2RL-2-DC12" description="General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, 12V coil"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PL_switch.kicad_sch"/>
+      <property name="ki_description" value="General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, 12V coil"/>
+      <property name="ki_keywords" value="Omron Relay Dual Pole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de8502f0-3237-4a69-8876-37098a1d65f2</tstamps>
+    </comp>
+    <comp ref="RL4">
+      <value>G2RL-2-DC12</value>
+      <footprint>Relay_THT:Relay_DPDT_Omron_G2RL</footprint>
+      <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf</datasheet>
+      <libsource lib="Relay" part="G2RL-2-DC12" description="General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, 12V coil"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PL_switch.kicad_sch"/>
+      <property name="ki_description" value="General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, 12V coil"/>
+      <property name="ki_keywords" value="Omron Relay Dual Pole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62aec00f-9489-4e4f-9858-90d5a2ee117e</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x01_Female">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+        <fp>*LEMO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x01">
+      <description>Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x01</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x04_Odd_Even">
+      <description>Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x04_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4007">
+      <description>1000V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4007</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay" part="G2RL-2-DC12">
+      <description>General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, 12V coil</description>
+      <docs>https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf</docs>
+      <footprints>
+        <fp>Relay*DPDT*Omron*G2RL*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RL</field>
+        <field name="Value">G2RL-2-DC12</field>
+        <field name="Footprint">Relay_THT:Relay_DPDT_Omron_G2RL</field>
+        <field name="Datasheet">https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="Relay">
+      <uri>/usr/share/kicad/symbols//Relay.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+12V">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="RL1" pin="1" pintype="passive"/>
+      <node ref="RL2" pin="8" pintype="passive"/>
+      <node ref="RL3" pin="8" pintype="passive"/>
+      <node ref="RL4" pin="8" pintype="passive"/>
+    </net>
+    <net code="2" name="/ANT-2">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="RL4" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/ANT-3">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="RL3" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/PTT">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J7" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="5" name="/PTT-OUT">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="RL1" pin="8" pintype="passive"/>
+      <node ref="RL2" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="/an1">
+      <node ref="J4" pin="1" pinfunction="In" pintype="passive"/>
+      <node ref="RL4" pin="2" pintype="passive"/>
+      <node ref="RL4" pin="7" pintype="passive"/>
+    </net>
+    <net code="7" name="/an2">
+      <node ref="J3" pin="1" pinfunction="In" pintype="passive"/>
+      <node ref="RL4" pin="4" pintype="passive"/>
+      <node ref="RL4" pin="5" pintype="passive"/>
+    </net>
+    <net code="8" name="/an3">
+      <node ref="J2" pin="1" pinfunction="In" pintype="passive"/>
+      <node ref="RL3" pin="4" pintype="passive"/>
+      <node ref="RL3" pin="5" pintype="passive"/>
+    </net>
+    <net code="9" name="/inp">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="RL1" pin="4" pintype="passive"/>
+      <node ref="RL1" pin="5" pintype="passive"/>
+    </net>
+    <net code="10" name="/out">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="RL2" pin="4" pintype="passive"/>
+      <node ref="RL2" pin="5" pintype="passive"/>
+    </net>
+    <net code="11" name="/rl12">
+      <node ref="RL1" pin="2" pintype="passive"/>
+      <node ref="RL1" pin="7" pintype="passive"/>
+      <node ref="RL2" pin="2" pintype="passive"/>
+      <node ref="RL2" pin="7" pintype="passive"/>
+    </net>
+    <net code="12" name="/rl23">
+      <node ref="RL2" pin="3" pintype="passive"/>
+      <node ref="RL2" pin="6" pintype="passive"/>
+      <node ref="RL3" pin="3" pintype="passive"/>
+      <node ref="RL3" pin="6" pintype="passive"/>
+    </net>
+    <net code="13" name="/rl34">
+      <node ref="RL3" pin="2" pintype="passive"/>
+      <node ref="RL3" pin="7" pintype="passive"/>
+      <node ref="RL4" pin="3" pintype="passive"/>
+      <node ref="RL4" pin="6" pintype="passive"/>
+    </net>
+    <net code="14" name="/trcv">
+      <node ref="J1" pin="1" pinfunction="In" pintype="passive"/>
+      <node ref="RL1" pin="3" pintype="passive"/>
+      <node ref="RL1" pin="6" pintype="passive"/>
+    </net>
+    <net code="15" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Ext" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Ext" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Ext" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Ext" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J7" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="16" name="unconnected-(J7-Pin_8-Pad8)">
+      <node ref="J7" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
