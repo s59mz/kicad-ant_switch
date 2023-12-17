@@ -6,7 +6,7 @@ HF Antenna Switch
 
 ![alt text](PL_switch_top.png)
 
-![alt text](PL_switch.png)
+![alt text](PL_switch_bot.png)
 
 Schematic:
 [ant_switch.pdf](PL_switch.pdf)
